@@ -1,0 +1,27 @@
+Source: nethound
+Section: utils
+Priority: optional
+Maintainer: xploitoverload <xploitoverload+xploitoverload@users.noreply.github.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 4.6.2
+Homepage: https://github.com/xploitoverload/NetHound
+Vcs-Browser: https://github.com/xploitoverload/NetHound
+Vcs-Git: https://github.com/xploitoverload/NetHound.git
+Rules-Requires-Root: no
+
+Package: nethound
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         python3-requests,
+         python3-pypdf
+Description: Newly Registered Domains (NRDs) tracker and threat intelligence extractor
+ NetHound is an OSINT and threat intelligence automation utility designed to
+ monitor, extract, and index Newly Registered Domains (NRDs) across global
+ registries including .IN, .COM, and generic TLDs.
+ .
+ It facilitates real-time tracking of emerging infrastructure, phishing
+ campaigns, brand impersonation, and typosquatting vectors.

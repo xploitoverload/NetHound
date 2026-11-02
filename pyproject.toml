@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nethound"
+version = "1.0.0"
+description = "Newly Registered Domains (NRDs) Tracker & Threat Intelligence Extractor"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "xploitoverload"}
+]
+keywords = [
+    "osint",
+    "threat-intelligence",
+    "nrd",
+    "security",
+    "domains",
+    "phishing-detection",
+    "pentesting",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Intended Audience :: Information Technology",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28.0",
+    "pypdf>=3.0.0",
+]
+
+[project.optional-dependencies]
+legacy-pdf = ["pdfplumber>=0.10.0"]
+
+[project.scripts]
+nethound = "nethound.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/xploitoverload/NetHound"
+Repository = "https://github.com/xploitoverload/NetHound.git"
+Issues = "https://github.com/xploitoverload/NetHound/issues"

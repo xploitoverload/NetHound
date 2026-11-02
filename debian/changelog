@@ -1,0 +1,5 @@
+nethound (1.0.0-0kali1) kali-rolling; urgency=medium
+
+  * Initial release of NetHound for Kali Linux.
+
+ -- xploitoverload <xploitoverload+xploitoverload@users.noreply.github.com>  Tue, 03 Nov 2026 00:20:00 +0530

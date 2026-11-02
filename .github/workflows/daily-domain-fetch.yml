@@ -24,7 +24,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pdfplumber requests
+          pip install pypdf requests
+          pip install .
 
       - name: Fetch and convert domain data
         run: |
@@ -32,14 +33,8 @@ jobs:
           FETCH_DATE=$(TZ='Asia/Kolkata' date -d 'yesterday' '+%Y-%m-%d' 2>/dev/null || TZ='Asia/Kolkata' date -v-1d '+%Y-%m-%d')
           echo "Processing domains for date: $FETCH_DATE"
           
-          # 1. Fetch .IN newly registered domains
-          python fetch_registry_domains.py "$FETCH_DATE" || echo "Warning: .IN fetch failed"
-          
-          # 2. Fetch .COM newly registered domains
-          python fetch_com_domains.py "$FETCH_DATE" || echo "Warning: .COM fetch failed"
-          
-          # 3. Fetch other TLD newly registered domains
-          python fetch_other_domains.py "$FETCH_DATE" || echo "Warning: others fetch failed"
+          # Fetch all domains via NetHound CLI
+          nethound fetch --tld all --date "$FETCH_DATE" || echo "Warning: Fetch encountered partial failures"
       
       - name: Commit and push changes
         run: |
