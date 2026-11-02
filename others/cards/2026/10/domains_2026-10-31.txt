@@ -1,0 +1,4 @@
+bgmc.cards
+kartupay.cards
+linxy.cards
+wheelbound.cards

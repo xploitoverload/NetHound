@@ -1,0 +1,3 @@
+beam.pub
+quick.pub
+redddybook.pub

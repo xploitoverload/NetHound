@@ -1,0 +1,6 @@
+cetra.global
+entrümpelkommando.global
+flyingtulip.global
+made-in-netherlands.global
+vavadacom.global
+weget.global

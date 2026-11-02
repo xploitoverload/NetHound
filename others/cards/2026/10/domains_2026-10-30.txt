@@ -1,0 +1,4 @@
+primitive.cards
+sharpay.cards
+task.cards
+unwritten.cards

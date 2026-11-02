@@ -1,0 +1,3 @@
+decor.kitchen
+slay.kitchen
+yours.kitchen

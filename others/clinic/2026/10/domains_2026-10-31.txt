@@ -1,0 +1,3 @@
+badskin.clinic
+hotvi.clinic
+mel.clinic

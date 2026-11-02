@@ -1,0 +1,6 @@
+arcon66.coffee
+cafebara.coffee
+jazz.coffee
+mind0.coffee
+panamericana.coffee
+prefers.coffee

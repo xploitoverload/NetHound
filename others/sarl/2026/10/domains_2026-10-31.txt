@@ -1,0 +1,6 @@
+loom.sarl
+remy.sarl
+senda.sarl
+slotion.sarl
+strategic.sarl
+textial.sarl

@@ -1,0 +1,3 @@
+jps.gallery
+taramis.gallery
+vielume.gallery

@@ -1,0 +1,6 @@
+aaaa.bot
+arthub.bot
+auftrag.bot
+bloch.bot
+busybit.bot
+tric.bot

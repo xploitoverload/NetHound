@@ -8,7 +8,7 @@ Automated daily snapshots of Newly Registered Domains (NRDs) for **.IN**, **.COM
 
 * **.IN NRDs (`in/`):** Automatically fetched from [.IN Registry](https://registry.in) daily domain creation reports via `fetch_registry_domains.py`.
 * **.COM NRDs (`com/`):** Automatically extracted from daily registry newly registered domain archives via `fetch_com_domains.py`.
-* **Other TLD NRDs (`others/`):** Automatically extracted newly registered domains for all other global extensions (.net, .org, .xyz, .top, .online, .site, etc.) via `fetch_other_domains.py`.
+* **Other TLD NRDs (`others/`):** Automatically partitioned into dedicated subdirectories per TLD (`others/cn/`, `others/shop/`, `others/net/`, `others/org/`, etc.) via `fetch_other_domains.py`.
 
 ## Data Format and Structure
 
@@ -25,9 +25,23 @@ NetHound/
 │       └── 11/
 │           └── domains_2026-11-01.txt
 ├── others/
-│   └── 2026/
-│       └── 11/
-│           └── domains_2026-11-01.txt
+│   ├── cn/
+│   │   └── 2026/
+│   │       └── 11/
+│   │           └── domains_2026-11-01.txt
+│   ├── shop/
+│   │   └── 2026/
+│   │       └── 11/
+│   │           └── domains_2026-11-01.txt
+│   ├── net/
+│   │   └── 2026/
+│   │       └── 11/
+│   │           └── domains_2026-11-01.txt
+│   ├── org/
+│   │   └── 2026/
+│   │       └── 11/
+│   │           └── domains_2026-11-01.txt
+│   └── ... (per-TLD subdirectories)
 ├── fetch_registry_domains.py   # .IN extractor
 ├── fetch_com_domains.py        # .COM extractor
 ├── fetch_other_domains.py      # Other TLDs extractor
@@ -51,9 +65,14 @@ python3 fetch_registry_domains.py [YYYY-MM-DD]
 python3 fetch_com_domains.py [YYYY-MM-DD]
 ```
 
-### Fetch Other TLD domains
+### Fetch Other TLD domains (all TLDs partitioned)
 ```bash
 python3 fetch_other_domains.py [YYYY-MM-DD]
+```
+
+### Fetch a Specific TLD only (e.g. .cn or .shop)
+```bash
+python3 fetch_other_domains.py [YYYY-MM-DD] --tld cn
 ```
 
 ### Fetch Both .COM and Other TLDs simultaneously

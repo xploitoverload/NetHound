@@ -1,0 +1,3 @@
+alkupanos.partners
+braz.partners
+fyc.partners

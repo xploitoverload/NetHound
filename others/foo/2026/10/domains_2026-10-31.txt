@@ -1,0 +1,2 @@
+bet30.foo
+reachly.foo

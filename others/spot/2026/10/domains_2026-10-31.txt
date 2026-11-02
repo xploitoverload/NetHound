@@ -1,0 +1,2 @@
+inviteonly.spot
+oligark.spot

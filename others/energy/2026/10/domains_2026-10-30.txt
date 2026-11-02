@@ -1,0 +1,14 @@
+alphacompute.energy
+brandt.energy
+greenlight.energy
+host.energy
+ibe.energy
+magnus.energy
+quanta.energy
+recon.energy
+release.energy
+ross.energy
+sat.energy
+solarcell.energy
+trac.energy
+windows-pc.energy

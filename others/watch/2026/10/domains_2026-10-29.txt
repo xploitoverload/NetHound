@@ -1,0 +1,4 @@
+aloi.watch
+asaitech.watch
+regaltimes.watch
+synatra.watch

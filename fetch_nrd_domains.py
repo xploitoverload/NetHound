@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import argparse
 import base64
+from collections import defaultdict
 from datetime import datetime, timedelta
 import io
 import os
@@ -18,7 +19,6 @@ def get_cached_or_download_zip(date_formatted: str) -> bytes | None:
         try:
             with open(cache_file, "rb") as f:
                 data = f.read()
-            # Verify valid zip
             with zipfile.ZipFile(io.BytesIO(data)) as z:
                 if z.namelist():
                     return data
@@ -40,13 +40,11 @@ def get_cached_or_download_zip(date_formatted: str) -> bytes | None:
             print(f"[!] HTTP {response.status_code} when fetching archive for {date_formatted}")
             return None
 
-        # Verify zip integrity
         with zipfile.ZipFile(io.BytesIO(response.content)) as z:
             if not z.namelist():
                 print(f"[!] Empty archive for {date_formatted}")
                 return None
 
-        # Save to temp cache
         with open(cache_file, "wb") as f:
             f.write(response.content)
 
@@ -59,18 +57,21 @@ def get_cached_or_download_zip(date_formatted: str) -> bytes | None:
         print(f"[!] Error downloading archive for {date_formatted}: {e}")
         return None
 
-def extract_nrd_domains(target_date: datetime, target_types=("com", "others")) -> bool:
+def extract_nrd_domains(target_date: datetime, target_types=("com", "others"), specific_tld=None) -> bool:
     date_formatted = target_date.strftime("%Y-%m-%d")
     year = target_date.strftime("%Y")
     month = target_date.strftime("%m")
 
-    # Check if requested files already exist
+    # Check if files already exist
+    com_file = Path("com") / year / month / f"domains_{date_formatted}.txt"
+    check_tld = specific_tld if specific_tld else "cn"
+    other_check = Path("others") / check_tld / year / month / f"domains_{date_formatted}.txt"
+
     needed = False
-    for t in target_types:
-        out_file = Path(t) / year / month / f"domains_{date_formatted}.txt"
-        if not (out_file.exists() and out_file.stat().st_size > 0):
-            needed = True
-            break
+    if "com" in target_types and not (com_file.exists() and com_file.stat().st_size > 0):
+        needed = True
+    if "others" in target_types and not (other_check.exists() and other_check.stat().st_size > 0):
+        needed = True
 
     if not needed:
         print(f"[*] Requested domains for {date_formatted} already exist. Skipping.")
@@ -81,7 +82,7 @@ def extract_nrd_domains(target_date: datetime, target_types=("com", "others")) -
         return False
 
     com_domains = []
-    other_domains = []
+    other_domains_by_tld = defaultdict(list)
 
     try:
         with zipfile.ZipFile(io.BytesIO(zip_bytes)) as z:
@@ -91,30 +92,44 @@ def extract_nrd_domains(target_date: datetime, target_types=("com", "others")) -
                         domain = line.decode("utf-8", errors="ignore").strip().lower()
                         if not domain or "." not in domain:
                             continue
+
                         if domain.endswith(".com"):
                             if "com" in target_types:
                                 com_domains.append(domain)
-                        else:
-                            if "others" in target_types:
-                                other_domains.append(domain)
+                        elif "others" in target_types:
+                            try:
+                                ascii_domain = domain.encode("idna").decode("ascii")
+                            except Exception:
+                                ascii_domain = domain
+
+                            parts = ascii_domain.rsplit(".", 1)
+                            if len(parts) == 2:
+                                tld = parts[1].lower()
+                                if tld.replace("-", "").isalnum():
+                                    if specific_tld and tld != specific_tld.lower():
+                                        continue
+                                    other_domains_by_tld[tld].append(domain)
 
         if "com" in target_types:
             com_domains = sorted(set(com_domains))
             out_dir = Path("com") / year / month
             out_dir.mkdir(parents=True, exist_ok=True)
-            out_file = out_dir / f"domains_{date_formatted}.txt"
-            with open(out_file, "w", encoding="utf-8") as f:
+            with open(com_file, "w", encoding="utf-8") as f:
                 f.write("\n".join(com_domains) + "\n")
-            print(f"[✓] Extracted {len(com_domains)} .com domains to {out_file}")
+            print(f"[✓] Extracted {len(com_domains)} .com domains to {com_file}")
 
         if "others" in target_types:
-            other_domains = sorted(set(other_domains))
-            out_dir = Path("others") / year / month
-            out_dir.mkdir(parents=True, exist_ok=True)
-            out_file = out_dir / f"domains_{date_formatted}.txt"
-            with open(out_file, "w", encoding="utf-8") as f:
-                f.write("\n".join(other_domains) + "\n")
-            print(f"[✓] Extracted {len(other_domains)} other domains to {out_file}")
+            total_other_count = 0
+            for tld, dom_list in other_domains_by_tld.items():
+                tld_domains = sorted(set(dom_list))
+                total_other_count += len(tld_domains)
+                out_dir = Path("others") / tld / year / month
+                out_dir.mkdir(parents=True, exist_ok=True)
+                out_file = out_dir / f"domains_{date_formatted}.txt"
+                with open(out_file, "w", encoding="utf-8") as f:
+                    f.write("\n".join(tld_domains) + "\n")
+
+            print(f"[✓] Extracted {total_other_count} other domains across {len(other_domains_by_tld)} TLD folders under others/")
 
         return True
 
@@ -122,27 +137,28 @@ def extract_nrd_domains(target_date: datetime, target_types=("com", "others")) -
         print(f"[!] Error extracting domains for {date_formatted}: {e}")
         return False
 
-def process_date(date_str=None, target_types=("com", "others")):
+def process_date(date_str=None, target_types=("com", "others"), specific_tld=None):
     if date_str:
         try:
             target_date = datetime.strptime(date_str, "%Y-%m-%d")
         except ValueError:
             target_date = datetime.strptime(date_str, "%d-%m-%Y")
 
-        success = extract_nrd_domains(target_date, target_types=target_types)
+        success = extract_nrd_domains(target_date, target_types=target_types, specific_tld=specific_tld)
         if not success:
             fallback = target_date - timedelta(days=1)
             print(f"[*] Retrying with previous day ({fallback.strftime('%Y-%m-%d')})...")
-            extract_nrd_domains(fallback, target_types=target_types)
+            extract_nrd_domains(fallback, target_types=target_types, specific_tld=specific_tld)
     else:
         yesterday = datetime.now() - timedelta(days=1)
-        extract_nrd_domains(yesterday, target_types=target_types)
+        extract_nrd_domains(yesterday, target_types=target_types, specific_tld=specific_tld)
 
 def main():
     parser = argparse.ArgumentParser(description="NetHound Multi-TLD NRD Fetcher")
     parser.add_argument("date", nargs="?", default=None, help="Date in YYYY-MM-DD or DD-MM-YYYY format")
     parser.add_argument("--type", choices=["all", "com", "others"], default="all",
                         help="Which domain categories to extract (default: all)")
+    parser.add_argument("--tld", default=None, help="Specific other TLD to extract (e.g. cn, shop, net)")
     args = parser.parse_args()
 
     if args.type == "all":
@@ -152,7 +168,7 @@ def main():
     else:
         types = ("others",)
 
-    process_date(args.date, target_types=types)
+    process_date(args.date, target_types=types, specific_tld=args.tld)
 
 if __name__ == "__main__":
     main()

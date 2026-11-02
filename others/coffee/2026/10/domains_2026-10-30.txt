@@ -1,0 +1,6 @@
+coffeeshop.coffee
+crtv.coffee
+fresharomaticdelicious.coffee
+rioroastery.coffee
+thedailydrip.coffee
+treestreet.coffee

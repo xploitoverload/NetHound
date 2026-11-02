@@ -1,0 +1,3 @@
+magi.watch
+magistv.watch
+turktv.watch

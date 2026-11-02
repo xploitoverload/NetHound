@@ -1,0 +1,5 @@
+agenda.ec
+arkainmo.ec
+ekoi.ec
+emaq.ec
+torrus.com.ec

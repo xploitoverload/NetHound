@@ -1,0 +1,5 @@
+calculator.tips
+royal.tips
+sozialraumbudget.tips
+thow.tips
+tipsters.tips

@@ -1,0 +1,10 @@
+amlcheck.global
+arenax.global
+edi-v.global
+end2end.global
+hyda.global
+soultalk.global
+tangmuay.global
+thaiboxing.global
+thehumanfuturehouse.global
+woolakk.global
