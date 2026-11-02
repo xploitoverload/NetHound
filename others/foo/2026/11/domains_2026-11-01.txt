@@ -1,0 +1,5 @@
+affi.foo
+bopaoa.foo
+downloadhubs.foo
+jess.foo
+python-man.foo

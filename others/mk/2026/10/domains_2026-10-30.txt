@@ -1,0 +1,2 @@
+fregio.mk
+kota.mk

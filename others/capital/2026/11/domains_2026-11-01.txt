@@ -1,0 +1,9 @@
+287.capital
+bluearrow.capital
+compas.capital
+delphic.capital
+ibp.capital
+investsystem.capital
+metadata.capital
+monad.capital
+trade40.capital

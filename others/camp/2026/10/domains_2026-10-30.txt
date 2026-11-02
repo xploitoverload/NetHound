@@ -1,0 +1,3 @@
+board.camp
+holm.camp
+north.camp

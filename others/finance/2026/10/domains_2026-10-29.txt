@@ -1,0 +1,7 @@
+amf-finance.finance
+astocks.finance
+baba.finance
+norr.finance
+pinco-casino.finance
+vaekstwealth.finance
+wager.finance

@@ -1,0 +1,3 @@
+el-shaddai.properties
+swk.properties
+werner.properties

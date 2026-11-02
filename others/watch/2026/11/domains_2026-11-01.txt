@@ -1,0 +1,9 @@
+akcio.watch
+automat.watch
+claimcheck.watch
+elections.watch
+highland.watch
+ieftin.watch
+pocet.watch
+royalschmied.watch
+thirty.watch

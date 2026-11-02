@@ -1,0 +1,3 @@
+bays.rent
+noagent.rent
+renta.rent
