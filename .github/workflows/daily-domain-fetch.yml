@@ -37,6 +37,9 @@ jobs:
           
           # 2. Fetch .COM newly registered domains
           python fetch_com_domains.py "$FETCH_DATE" || echo "Warning: .COM fetch failed"
+          
+          # 3. Fetch other TLD newly registered domains
+          python fetch_other_domains.py "$FETCH_DATE" || echo "Warning: others fetch failed"
       
       - name: Commit and push changes
         run: |
