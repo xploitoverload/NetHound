@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-NetHound - Newly Registered .COM Domains Fetcher
-Automatically downloads daily newly registered .com domains from registry feeds.
-"""
-
 import base64
 from datetime import datetime, timedelta
 import io
