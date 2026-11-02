@@ -54,7 +54,7 @@ def process_date(date_str=None):
     year = date_obj.strftime("%Y")
     month = date_obj.strftime("%m")
 
-    output_dir = Path(year) / month
+    output_dir = Path("in") / year / month
     output_dir.mkdir(parents=True, exist_ok=True)
 
     pdf_filename = f"domain-creates_{date_formatted}.pdf"
