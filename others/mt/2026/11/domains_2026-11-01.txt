@@ -1,0 +1,4 @@
+automations.mt
+kashi.mt
+okx.mt
+thematchaclub.mt

@@ -1,0 +1,5 @@
+elo.codes
+humanos.codes
+promocalculator.codes
+talk.codes
+vercel.codes

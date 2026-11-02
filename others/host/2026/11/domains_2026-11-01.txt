@@ -1,0 +1,6 @@
+cloudtera.host
+gindow.host
+marvelhost.host
+owns-a.host
+potentia.host
+satchel.host

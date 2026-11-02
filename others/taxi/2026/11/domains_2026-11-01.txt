@@ -1,0 +1,3 @@
+galabet.taxi
+padisahbet.taxi
+taxee.taxi

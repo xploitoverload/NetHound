@@ -1,0 +1,3 @@
+aime.photos
+flight.photos
+thewedding.photos

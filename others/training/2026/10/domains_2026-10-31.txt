@@ -1,0 +1,4 @@
+attacker.training
+humanos.training
+mastersofhypnosis.training
+thepractice.training

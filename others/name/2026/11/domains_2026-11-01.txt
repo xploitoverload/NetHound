@@ -1,0 +1,11 @@
+bookmaker.name
+bookmakers-gb.name
+bubble.name
+kiwi-treasure-casinos.name
+notrevogiftsornaments.name
+starcasino-it.name
+starcasino-italy.name
+starcasino.name
+unitogel.name
+vip777.name
+win888.name

@@ -1,0 +1,3 @@
+handm.properties
+onthehill.properties
+use-commercial.properties
