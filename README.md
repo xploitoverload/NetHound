@@ -1,30 +1,55 @@
-## .in NRDs
+# NetHound - Newly Registered Domains (NRDs) Tracker
 
-This repository provides daily snapshots of newly registered domains (NRDs) for the .IN registry for threat intelligence and security research purposes.
+[![Daily Domain Fetch](https://github.com/xploitoverload/NetHound/actions/workflows/daily-domain-fetch.yml/badge.svg)](https://github.com/xploitoverload/NetHound/actions/workflows/daily-domain-fetch.yml)
 
-This repository uses the GitHub Actions workflow defined in `.github/workflows/daily-domain-fetch.yml` and the `fetch_registry_domains.py` script to automatically fetch and extract domain data from the [.IN registry](https://registry.in) every morning at 9 AM IST, processing the previous day's registrations.
+Automated daily snapshots of Newly Registered Domains (NRDs) for **.IN** and **.COM** registries for threat intelligence, security operations, and OSINT research.
 
-## Data format and source
+## Supported Registries
 
-Domains are organized by date in `YYYY/MM/domains_DD-MM-YYYY.txt` files, with one domain per line.
+* **.IN NRDs (`in/`):** Automatically fetched from [.IN Registry](https://registry.in) daily domain creation reports via `fetch_registry_domains.py`.
+* **.COM NRDs (`com/`):** Automatically extracted from daily registry newly registered domain archives via `fetch_com_domains.py`.
 
-All data is sourced from registry.in's public domain creation reports. This repository simply automates the extraction and archival process.
+## Data Format and Structure
 
-## Reliability notice
+Domains are organized by TLD, Year, and Month with one domain per line:
 
-**This repository will break if registry.in changes its domain reporting format or URL structure.** The extraction relies on the current URL structure and PDF table format.
+```text
+NetHound/
+├── in/
+│   └── 2026/
+│       └── 11/
+│           └── domains_01-11-2026.txt
+├── com/
+│   └── 2026/
+│       └── 11/
+│           └── domains_2026-11-01.txt
+├── fetch_registry_domains.py   # .IN extractor
+├── fetch_com_domains.py        # .COM extractor
+└── .github/workflows/daily-domain-fetch.yml
+```
 
-No guarantees are made about data completeness or availability.
+## Automation
 
-## Disclaimer
+Domain archives are automatically fetched, extracted, and committed every morning at **9:00 AM IST (03:30 UTC)** via GitHub Actions (`daily-domain-fetch.yml`).
 
-The maintainer of this repository:
+## Manual Execution
 
-- Makes no warranties about accuracy, completeness, or reliability of the data
-- Is not responsible for how this data is used
-- Is not affiliated with registry.in
-- Provides this data AS-IS with no guarantees of continued service
+### Fetch .IN domains
+```bash
+python3 fetch_registry_domains.py [YYYY-MM-DD]
+```
+
+### Fetch .COM domains
+```bash
+python3 fetch_com_domains.py [YYYY-MM-DD]
+```
+
+## Reliability Notice & Disclaimer
+
+- The maintainer makes no warranties regarding the completeness or accuracy of third-party registry feeds.
+- Data is provided **AS-IS** for research and threat intelligence analysis.
+- Not affiliated with registry.in or Verisign.
 
 ## License
 
-All data and code in this repository are released under [The Unlicense.](https://unlicense.org)
+All data and automation code in this repository are released under [The Unlicense](https://unlicense.org).
