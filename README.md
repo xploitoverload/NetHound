@@ -104,7 +104,7 @@ nethound search "paypal"
 
 Search with Regular Expressions (`-r` / `--regex`):
 ```bash
-nethound search -r "^login.*\\.com$"
+nethound search -r "^login.*\.com$"
 ```
 
 Filter search by specific TLD:
