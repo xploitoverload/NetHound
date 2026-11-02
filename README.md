@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="NetHound%20Cybersecurity%20Intelligence%20Banner.png" alt="NetHound Cybersecurity Intelligence Banner" width="100%">
+</p>
+
 # NetHound 🐕
 ### Newly Registered Domains (NRDs) Tracker & Threat Intelligence Engine
 
