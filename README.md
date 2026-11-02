@@ -3,174 +3,179 @@
 </p>
 
 # NetHound 🐕
-### Newly Registered Domains (NRDs) Tracker & Threat Intelligence Engine
 
-[![Release](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/xploitoverload/NetHound/releases)
+### Newly Registered Domains (NRDs) tracker for OSINT and threat-intelligence research
+
+[![GitHub Stars](https://img.shields.io/github/stars/xploitoverload/NetHound?style=social)](https://github.com/xploitoverload/NetHound/stargazers)
 [![Daily Domain Fetch](https://github.com/xploitoverload/NetHound/actions/workflows/daily-domain-fetch.yml/badge.svg)](https://github.com/xploitoverload/NetHound/actions/workflows/daily-domain-fetch.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![Platform: Linux | macOS | Windows](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](https://github.com/xploitoverload/NetHound)
 
-**NetHound** is a fast, modular CLI tool and threat intelligence engine designed to monitor, extract, and search Newly Registered Domains (NRDs) across global registries (.IN, .COM, and hundreds of top-level domains).
+**NetHound** is a modular command-line tool for collecting, archiving, and searching Newly Registered Domains (NRDs). It tracks supported TLD data sources, keeps date-organized domain archives, and makes the results easy to inspect or pipe into other security tools.
 
-Security teams, OSINT researchers, and penetration testers use newly registered domains to detect:
-* **Phishing campaigns** and credential harvesting setups hours after registration.
-* **Brand impersonation** and typosquatting attacks targeting organizations.
-* **Malware C2 infrastructure** and fast-flux domains before active deployment.
+It is designed for security researchers, SOC analysts, OSINT investigators, and defenders working on:
 
----
+- Phishing and suspicious-domain investigations
+- Brand monitoring and typosquatting research
+- DNS and infrastructure reconnaissance
+- Threat-intelligence enrichment and hunting
 
-## ✨ Features
-
-* **Multi-Registry Tracking:** Native support for `.IN` (Registry.in), `.COM`, and hundreds of generic TLDs (`.cn`, `.shop`, `.top`, `.net`, `.xyz`, etc.).
-* **Pure Python & Fast Extraction:** Uses high-performance `pypdf` stream extraction with zero external system binaries.
-* **Built-in Search Engine:** Search through historical and daily domain lists by exact string or regular expressions (`nethound search`).
-* **Unix Pipe Friendly:** Stream domains straight to stdout (`--stdout` / `-s`) to pipe into `httpx`, `dnsx`, `subfinder`, or `nuclei`.
-* **Debian & Kali Linux Ready:** Native `debian/` packaging included out-of-the-box for inclusion in security distributions.
+> **Important:** A newly registered domain is not automatically malicious. NetHound helps with discovery and triage; always validate findings with additional context before treating a domain as a threat.
 
 ---
 
-## 🚀 Installation
+## Why NetHound?
 
-### Using pip
+- **Multi-TLD collection:** Supports `.IN`, `.COM`, and additional TLD datasets through the configured sources.
+- **Python-based extraction:** Uses `pypdf` for PDF stream extraction without requiring external system binaries.
+- **Historical search:** Search archived daily domain lists by keyword or regular expression.
+- **Pipeline-friendly output:** Stream results to standard output or export structured JSON.
+- **Security-tool workflows:** Pipe domain lists into tools such as `httpx` and `dnsx` for authorized investigation.
+- **Linux packaging:** Includes Debian packaging files for building a package for Debian-based systems.
+
+## Quick start
+
+### Install from source
+
 ```bash
 git clone https://github.com/xploitoverload/NetHound.git
 cd NetHound
-pip install .
+python -m pip install .
 ```
 
-Or install directly via Git:
+Check the installation:
+
 ```bash
-pip install git+https://github.com/xploitoverload/NetHound.git
+nethound --version
+nethound --help
 ```
 
-### Debian / Kali Linux Package Build
+You can also install directly from the repository:
+
 ```bash
-sudo apt install -y dh-python python3-all python3-requests python3-pypdf
-cd NetHound
-dpkg-buildpackage -us -uc -b
-sudo dpkg -i ../nethound_1.0.0*.deb
+python -m pip install git+https://github.com/xploitoverload/NetHound.git
 ```
 
----
+## Usage
 
-## 🛠️ Usage
+### 1. Fetch newly registered domains
 
-### 1. Fetching Domains (`nethound fetch`)
+Fetch the previous day's data for all supported TLD sources:
 
-Fetch all domains from yesterday across all supported registries:
 ```bash
 nethound fetch --tld all
 ```
 
-Fetch only `.IN` newly registered domains for a specific date:
+Fetch only `.IN` domains for a specific date:
+
 ```bash
 nethound fetch --tld in --date 2026-11-01
 ```
 
-Fetch only `.COM` domains:
+Fetch `.COM` domains:
+
 ```bash
 nethound fetch --tld com --date 2026-11-01
 ```
 
-Fetch specific TLD (e.g. `.cn` or `.shop`):
+Fetch a specific supported TLD:
+
 ```bash
 nethound fetch --tld cn --date 2026-11-01
+nethound fetch --tld shop --date 2026-11-01
 ```
 
-#### Pipeline Integration (Piping to Security Tools)
-Stream domain names directly to standard output without status logs:
+### 2. Pipe results into other tools
+
+Stream domains to standard output without status messages:
+
 ```bash
-# Check live HTTP services on today's .in registrations
-nethound fetch --tld in -s | httpx -silent -title -status-code
+# Inspect HTTP services on newly registered .IN domains
+nethound fetch --tld in --stdout | httpx -silent -title -status-code
 
-# Resolve DNS records for newly registered .com domains
-nethound fetch --tld com -s | dnsx -silent -a -resp
+# Resolve newly registered .COM domains
+nethound fetch --tld com --stdout | dnsx -silent -a -resp
 ```
 
-Output as structured JSON:
+These examples are intended for authorized research and defensive monitoring.
+
+### 3. Export JSON
+
 ```bash
 nethound fetch --tld in --json
 ```
 
----
+### 4. Search archived domains
 
-### 2. Searching NRD Records (`nethound search`)
+Search for a keyword:
 
-Search for keyword occurrences (e.g., brand monitoring for "paypal" or "bank"):
 ```bash
 nethound search "paypal"
 ```
 
-Search with Regular Expressions (`-r` / `--regex`):
+Search using a regular expression:
+
 ```bash
-nethound search -r "^login.*\.com$"
+nethound search --regex "^login.*\\.com$"
 ```
 
-Filter search by specific TLD:
+Filter by TLD:
+
 ```bash
 nethound search "binance" --tld com
 ```
 
-Print source files and line locations:
+Show the source file and matching line:
+
 ```bash
-nethound search "kali" -V
+nethound search "kali" --verbose
 ```
 
----
+### 5. View archive statistics
 
-### 3. Database Statistics (`nethound stats`)
-
-View a statistical summary of all currently tracked domains and file distributions:
 ```bash
 nethound stats
 ```
 
----
+## Automated daily synchronization
 
-## 📂 Repository Data Structure
+The repository includes a GitHub Actions workflow scheduled for **09:00 IST (03:30 UTC)**. It attempts to collect the previous day's data and commit archive updates to the repository.
 
-For researchers interested in automated historical archives, domain lists are structured as follows:
+You can also trigger the workflow manually from the **Actions** tab.
+
+## Repository layout
 
 ```text
 NetHound/
-├── in/                          # .IN Registry creations (yearly/monthly)
-│   └── 2026/
-│       └── 11/
-│           └── domains_2026-11-01.txt
-├── com/                         # .COM Newly Registered Domains
-│   └── 2026/
-│       └── 11/
-│           └── domains_2026-11-01.txt
-├── others/                      # Sub-partitioned per TLD
-│   ├── cn/
-│   ├── shop/
-│   ├── top/
-│   └── ...
-├── nethound/                    # Core Python package
-│   ├── cli.py                   # Main CLI entrypoint
-│   ├── config.py                # Configurations & date parsers
-│   ├── search.py                # Search and regex engine
-│   └── fetchers/                # Registry & WhoisDS extraction engines
-├── debian/                      # Official Debian/Kali packaging files
-└── .github/workflows/           # Automated daily sync pipeline
+├── in/                          # .IN domain archives
+├── com/                         # .COM domain archives
+├── others/                      # Other supported TLD archives
+├── nethound/                    # Python CLI package
+│   ├── cli.py                   # CLI entry point
+│   ├── config.py                # Configuration and date parsing
+│   ├── search.py                # Keyword and regex search
+│   └── fetchers/                # Domain data extraction sources
+├── debian/                      # Debian packaging files
+└── .github/workflows/           # Scheduled synchronization
 ```
 
----
+## Contributing
 
-## 🤖 Automated Daily Synchronization
+Bug reports, feature ideas, documentation improvements, and pull requests are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a change.
 
-NetHound runs an automated GitHub Action every morning at **09:00 AM IST (03:30 UTC)** to fetch, extract, and index all newly registered domain drops from global registries.
+## Security and responsible use
 
----
+Use NetHound only for lawful research and systems you are authorized to assess. Do not assume that a newly registered domain is malicious, and validate findings before acting on them. See [SECURITY.md](SECURITY.md) for reporting guidance.
 
-## 🛡️ License
+## License
 
-This project is licensed under the [MIT License](LICENSE).
+NetHound is licensed under the [MIT License](LICENSE).
 
----
+## Author
 
-## 👤 Author
+Created and maintained by [xploitoverload](https://github.com/xploitoverload).
 
-Developed by **[xploitoverload](https://github.com/xploitoverload)**.  
-Contributions, issues, and feature requests are welcome!
+**Found NetHound useful?** Give the repository a star to help other researchers discover it, or open an issue with feedback and ideas.
+
+[⭐ Star NetHound on GitHub](https://github.com/xploitoverload/NetHound)
