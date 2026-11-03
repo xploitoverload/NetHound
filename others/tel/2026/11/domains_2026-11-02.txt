@@ -1,0 +1,4 @@
+barca.tel
+kiosque.tel
+talking.tel
+zelva.tel

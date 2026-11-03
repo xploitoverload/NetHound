@@ -1,0 +1,5 @@
+lawsof.cards
+meh.cards
+rewards-fc27ut.cards
+sementefogo.cards
+zad.cards

@@ -1,0 +1,3 @@
+brightlight.clinic
+ges.clinic
+glp.clinic

@@ -1,0 +1,4 @@
+anconia.energy
+armageddon.energy
+edma.energy
+omsolar.energy

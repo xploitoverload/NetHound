@@ -1,0 +1,7 @@
+astrea.zone
+baller.zone
+chicken-road.zone
+manhattan.zone
+metafi.zone
+possm.zone
+tars.zone

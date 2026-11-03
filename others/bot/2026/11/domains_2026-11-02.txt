@@ -1,0 +1,5 @@
+biocompute.bot
+hauler.bot
+holistic.bot
+mylink.bot
+soulspace.bot
