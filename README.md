@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/nethound-icon.svg" alt="NetHound wolf logo" width="180" height="180" style="border-radius: 50%; background-color: #000; object-fit: contain;">
+  <img src="assets/nethound-icon.svg" alt="NetHound wolf logo" width="180" height="180">
 </p>
 
 # NetHound 🐕
