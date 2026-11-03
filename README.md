@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="assets/nethound-icon.svg" alt="NetHound wolf logo" width="180">
-</p>
-
-<p align="center">
-  <img src="NetHound%20Cybersecurity%20Intelligence%20Banner.png" alt="NetHound Cybersecurity Intelligence Banner" width="100%">
+  <img src="assets/nethound-icon.svg" alt="NetHound wolf logo" width="180" height="180" style="border-radius: 50%; background-color: #000; object-fit: contain;">
 </p>
 
 # NetHound 🐕
@@ -178,3 +174,9 @@ This project is licensed under the [MIT License](LICENSE).
 
 Developed by **[xploitoverload](https://github.com/xploitoverload)**.  
 Contributions, issues, and feature requests are welcome!
+
+---
+
+<p align="center">
+  <img src="NetHound%20Cybersecurity%20Intelligence%20Banner.png" alt="NetHound Cybersecurity Intelligence Banner" width="100%">
+</p>
