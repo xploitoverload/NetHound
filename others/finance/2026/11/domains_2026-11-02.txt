@@ -1,0 +1,7 @@
+cwtc.finance
+daintree.finance
+defivault.finance
+emails.finance
+longbow.finance
+second-chance.finance
+x8.finance

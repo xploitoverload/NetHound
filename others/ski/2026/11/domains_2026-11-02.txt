@@ -1,0 +1,3 @@
+gate.ski
+jumping.ski
+lord.ski

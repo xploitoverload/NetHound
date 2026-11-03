@@ -1,0 +1,3 @@
+cj.photos
+timos.photos
+trophy.photos

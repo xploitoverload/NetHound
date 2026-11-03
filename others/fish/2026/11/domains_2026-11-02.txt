@@ -1,0 +1,3 @@
+daqua.fish
+nord.fish
+typo.fish
