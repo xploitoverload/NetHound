@@ -1,0 +1,15 @@
+404.events
+agentsmanifesto.events
+bare.events
+beachfront.events
+eaglestone.events
+hotcue.events
+mycraftfair.events
+myfarmersmarket.events
+myfleamarket.events
+mymarket.events
+padawan.events
+promed.events
+thrill.events
+wagtail.events
+whiterabbitayr.events

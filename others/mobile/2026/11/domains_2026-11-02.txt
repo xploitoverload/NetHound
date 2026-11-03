@@ -1,0 +1,3 @@
+borealisatlas.mobile
+kemster.mobile
+spencermarcu.mobile

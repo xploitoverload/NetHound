@@ -1,0 +1,3 @@
+detective.parts
+sherlock.parts
+viridian.parts
