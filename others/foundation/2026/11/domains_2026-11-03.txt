@@ -1,0 +1,5 @@
+aimworthy.foundation
+aqaarview.foundation
+kvach.foundation
+opensciencemodel.foundation
+sales.foundation

@@ -1,0 +1,3 @@
+cityacademy.soccer
+dooball.soccer
+natural.soccer

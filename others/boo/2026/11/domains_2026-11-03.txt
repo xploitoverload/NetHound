@@ -1,0 +1,3 @@
+angi.boo
+sigil.boo
+tuck.boo
