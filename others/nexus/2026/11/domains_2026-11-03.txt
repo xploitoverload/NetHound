@@ -1,0 +1,5 @@
+battlebay.nexus
+foundations.nexus
+rosethorn.nexus
+terqyn.nexus
+typhon.nexus

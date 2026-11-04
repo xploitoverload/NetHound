@@ -1,0 +1,2 @@
+bigbang.observer
+walletscanner.observer

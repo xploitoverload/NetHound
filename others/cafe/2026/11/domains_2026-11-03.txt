@@ -1,0 +1,4 @@
+disaster.cafe
+fastfoods.cafe
+foodtown.cafe
+retire.cafe

@@ -1,0 +1,2 @@
+hambo.directory
+korea.directory

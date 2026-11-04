@@ -1,0 +1,3 @@
+jordans.photos
+nima.photos
+prompts.photos
