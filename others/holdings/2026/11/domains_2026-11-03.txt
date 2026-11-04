@@ -1,0 +1,2 @@
+depthmedia.holdings
+soft.holdings
