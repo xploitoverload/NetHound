@@ -1,0 +1,3 @@
+firmen.tirol
+itas.tirol
+luxurygoods.tirol

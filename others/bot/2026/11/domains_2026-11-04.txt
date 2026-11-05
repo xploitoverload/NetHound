@@ -1,0 +1,9 @@
+alphacloud.bot
+amir.bot
+callforhelp.bot
+ehr.bot
+lev.bot
+outflow.bot
+pmail.bot
+researcher.bot
+shey.bot
