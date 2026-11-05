@@ -1,0 +1,4 @@
+affiliateprogram.partners
+jmb.partners
+m-power.partners
+soundview.partners
