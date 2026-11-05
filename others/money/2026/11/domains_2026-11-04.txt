@@ -1,0 +1,6 @@
+accounts.money
+buyercapital.money
+major.money
+nia.money
+steadywealth.money
+tiki.money

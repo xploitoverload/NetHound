@@ -1,0 +1,6 @@
+evento.host
+rino.host
+scaley.host
+scaryg.host
+semms.host
+yourwebsite.host
