@@ -1,0 +1,8 @@
+asteroid.bot
+erad.bot
+honorsouth.bot
+neuronus.bot
+rua.bot
+taka.bot
+yutu.bot
+中文.bot
