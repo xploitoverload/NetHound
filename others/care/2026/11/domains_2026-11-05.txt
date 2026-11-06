@@ -1,0 +1,5 @@
+alter.care
+diabeticfoot.care
+fastpc.care
+getvitala.care
+vitalroute.care
