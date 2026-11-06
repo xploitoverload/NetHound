@@ -1,0 +1,12 @@
+afakt.sh
+bica.sh
+diglot.sh
+ecstasy.sh
+lexical.sh
+maclean.sh
+maranello.sh
+nightphase.sh
+pdpj.sh
+repli.sh
+virtx.sh
+within.sh

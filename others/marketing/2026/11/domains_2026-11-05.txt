@@ -1,0 +1,3 @@
+assistant.marketing
+edison.marketing
+pgvg.marketing

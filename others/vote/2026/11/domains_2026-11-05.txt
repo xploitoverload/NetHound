@@ -1,0 +1,5 @@
+fdt.vote
+ktre.vote
+quya.vote
+ryug.vote
+zuhg.vote

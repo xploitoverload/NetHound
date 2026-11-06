@@ -1,0 +1,7 @@
+automate.pay
+ecom.pay
+elevate.pay
+onchain.pay
+polaris.pay
+synergy.pay
+x402.pay

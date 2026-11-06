@@ -1,0 +1,5 @@
+chika.cards
+mylocal.cards
+nfcmetal.cards
+rfidmetal.cards
+whisker.cards
