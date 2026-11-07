@@ -1,0 +1,13 @@
+banque-de-france.global
+beepay.global
+efx.global
+freshquest.global
+homebody.global
+intelligencehub.global
+jmaf.global
+lovay.global
+notme.global
+outcometrading.global
+virtelium.global
+wellgroup.global
+whofoundation-us.global

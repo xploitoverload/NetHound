@@ -1,0 +1,5 @@
+kddesign.bot
+ltf.bot
+rivo.bot
+sops.bot
+vergent.bot

@@ -1,0 +1,3 @@
+cookie.international
+panes.international
+pizzeria.international

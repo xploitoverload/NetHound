@@ -1,0 +1,3 @@
+finanzamt-niederbayern-west.bayern
+finanzamt-oberpfalz-ost.bayern
+finanzamt-oberpfalz-west.bayern

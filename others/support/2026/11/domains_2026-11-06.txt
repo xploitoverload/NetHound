@@ -1,0 +1,12 @@
+birthday.support
+corpjar.support
+dgt.support
+evc.support
+ezbet.support
+godesk.support
+herb.support
+pookq.support
+tektalk.support
+us-malwarebytes.support
+us-vipre.support
+waypoint.support

@@ -1,0 +1,3 @@
+corpjar.expert
+meai.expert
+spectra.expert

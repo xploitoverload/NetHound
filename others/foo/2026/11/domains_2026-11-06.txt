@@ -1,0 +1,3 @@
+scallywag.foo
+vinny.foo
+xn--nda.foo
