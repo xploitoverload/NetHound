@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/nethound-icon.svg" alt="NetHound wolf logo" width="180" height="180">
+  <img src="https://raw.githubusercontent.com/xploitoverload/NetHound/main/assets/nethound-icon.svg" alt="NetHound wolf logo" width="180" height="180">
 </p>
 
 # NetHound 🐕
@@ -32,7 +32,12 @@ Security teams, OSINT researchers, and penetration testers use newly registered 
 
 ## 🚀 Installation
 
-### Using pip
+### Using pip (PyPI)
+```bash
+pip install nethound
+```
+
+### From Source
 ```bash
 git clone https://github.com/xploitoverload/NetHound.git
 cd NetHound
