@@ -1,0 +1,8 @@
+arbi.bot
+bcep.bot
+botdriver.bot
+botfarmer.bot
+mekary.bot
+prospecting.bot
+superfast.bot
+vor.bot

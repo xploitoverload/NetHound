@@ -1,0 +1,6 @@
+1c.software
+ams.software
+noteapp.software
+octa.software
+oxford.software
+seized.software

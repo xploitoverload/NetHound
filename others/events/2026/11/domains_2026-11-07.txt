@@ -1,0 +1,3 @@
+avn.events
+countryfun.events
+platea.events

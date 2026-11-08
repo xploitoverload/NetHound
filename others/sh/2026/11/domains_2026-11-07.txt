@@ -1,0 +1,8 @@
+autosana.sh
+kubee.sh
+kubie.sh
+lowry.sh
+netcode.sh
+passt.sh
+shippin.sh
+sought.sh

@@ -1,0 +1,3 @@
+cuisine.delivery
+mad.delivery
+ugc.delivery
