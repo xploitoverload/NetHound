@@ -1,0 +1,3 @@
+kotabaruparahyangan.properties
+lai.properties
+smartworldnivara.properties
