@@ -1,0 +1,6 @@
+beeshop.mn
+kanji.mn
+mongolcom.mn
+orloo.mn
+uhaalag.mn
+yandex.mn

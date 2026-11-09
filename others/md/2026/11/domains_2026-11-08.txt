@@ -1,0 +1,8 @@
+beautyshop.md
+bizcard.md
+curiozitati.md
+donate.md
+gzt.md
+inf.md
+promos.md
+triholog.md

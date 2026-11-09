@@ -1,0 +1,4 @@
+anagke.bot
+b9.bot
+heynora.bot
+keego.bot

@@ -1,0 +1,5 @@
+coins.ci
+mctp.ci
+more.ci
+perfect.ci
+support.ci

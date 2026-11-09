@@ -1,0 +1,4 @@
+jewels.shopping
+optimus.shopping
+tcg.shopping
+tokens.shopping

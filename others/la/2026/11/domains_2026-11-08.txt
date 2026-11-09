@@ -1,0 +1,7 @@
+circulation.la
+goji.la
+goose.la
+phresh.la
+rosel.la
+wigo.la
+zibo.la

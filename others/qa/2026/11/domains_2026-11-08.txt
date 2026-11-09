@@ -1,0 +1,9 @@
+amaze.qa
+careers.qa
+deals.com.qa
+desk.qa
+edamafm.qa
+masters.qa
+meandmoe.qa
+ppp.qa
+roots.qa

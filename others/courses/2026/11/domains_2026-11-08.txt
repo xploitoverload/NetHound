@@ -1,0 +1,2 @@
+aerodrome.courses
+haitun.courses
