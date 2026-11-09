@@ -1,0 +1,4 @@
+estrela.host
+k9win.host
+low-cost.host
+tctx.host
