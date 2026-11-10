@@ -1,0 +1,4 @@
+altureyarix.business
+kermo.business
+softpedia.business
+zam.business

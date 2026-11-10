@@ -1,0 +1,6 @@
+gonk.sh
+grinch.sh
+herbier.sh
+lintrules.sh
+reyni.sh
+tldw.sh

@@ -1,0 +1,2 @@
+baremetal.army
+kamilsus.army

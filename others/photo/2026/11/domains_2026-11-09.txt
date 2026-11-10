@@ -1,0 +1,3 @@
+athenaeum.photo
+fugue.photo
+stalk.photo
