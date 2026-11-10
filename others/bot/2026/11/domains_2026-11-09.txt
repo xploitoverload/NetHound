@@ -1,0 +1,7 @@
+canter.bot
+instructor.bot
+ironrange.bot
+membership.bot
+oaas.bot
+otpaas.bot
+virtualadmin.bot

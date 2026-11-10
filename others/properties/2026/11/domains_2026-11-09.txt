@@ -1,0 +1,2 @@
+lunan.properties
+redemption.properties
