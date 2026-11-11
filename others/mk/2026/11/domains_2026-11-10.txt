@@ -1,0 +1,2 @@
+amsmklub.mk
+eiarchitecture.mk

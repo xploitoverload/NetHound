@@ -1,0 +1,7 @@
+arrival.bot
+cusps.bot
+emblem.bot
+heyryan.bot
+horus.bot
+theseusai.bot
+untrusted.bot

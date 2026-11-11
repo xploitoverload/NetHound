@@ -1,0 +1,3 @@
+clubfen-onegame.events
+ocean.events
+wellnessthailand.events

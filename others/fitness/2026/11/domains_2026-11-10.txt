@@ -1,0 +1,6 @@
+ariadna.fitness
+caro.fitness
+native.fitness
+panther.fitness
+pear.fitness
+syntaxsuccess.fitness

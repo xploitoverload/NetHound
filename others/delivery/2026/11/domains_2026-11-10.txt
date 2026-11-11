@@ -1,0 +1,3 @@
+geebo.delivery
+laramie.delivery
+oopbuyshipping.delivery

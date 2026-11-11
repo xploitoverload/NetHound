@@ -1,0 +1,3 @@
+bridge.rentals
+lagunaluxury.rentals
+wallet.rentals

@@ -1,0 +1,2 @@
+myweather.krd
+pana.krd
