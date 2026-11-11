@@ -1,0 +1,4 @@
+fuego.computer
+goetia.computer
+pc-net-techs.computer
+sensor.computer

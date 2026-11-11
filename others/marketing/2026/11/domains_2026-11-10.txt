@@ -1,0 +1,5 @@
+brandup.marketing
+montresor.marketing
+rootlabs.marketing
+txtprod.marketing
+vma.marketing

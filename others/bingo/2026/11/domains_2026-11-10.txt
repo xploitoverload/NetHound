@@ -1,0 +1,3 @@
+my333.bingo
+rm222.bingo
+startup.bingo

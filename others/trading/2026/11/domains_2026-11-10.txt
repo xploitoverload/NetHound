@@ -1,0 +1,3 @@
+bluepips.trading
+imperialglobal.trading
+sight.trading

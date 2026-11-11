@@ -1,0 +1,5 @@
+phygital.cards
+schnaps.cards
+tarrot.cards
+tradingview.cards
+valeria.cards

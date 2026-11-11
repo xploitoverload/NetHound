@@ -1,0 +1,3 @@
+chandler.foo
+curo.foo
+wanadoo.foo
