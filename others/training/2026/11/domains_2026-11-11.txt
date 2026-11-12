@@ -1,0 +1,2 @@
+automaticaintelligence.training
+umbrella.training

@@ -1,0 +1,6 @@
+demirsa.srl
+dorpica.srl
+euromarket.srl
+maiallm.srl
+onabigo.srl
+wime.srl
