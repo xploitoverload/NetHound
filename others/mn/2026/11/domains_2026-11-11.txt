@@ -1,0 +1,3 @@
+buzzer.mn
+pluvia.mn
+thermal.mn

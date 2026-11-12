@@ -1,0 +1,2 @@
+jobshop.jobs
+magnify.jobs

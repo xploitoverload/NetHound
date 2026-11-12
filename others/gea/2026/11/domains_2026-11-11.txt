@@ -1,0 +1,4 @@
+optipartner.gea
+security.gea
+share.gea
+workday.gea

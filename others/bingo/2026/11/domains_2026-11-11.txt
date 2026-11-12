@@ -1,0 +1,3 @@
+candyshop.bingo
+mfortune.bingo
+spice.bingo

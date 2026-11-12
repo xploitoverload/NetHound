@@ -1,0 +1,4 @@
+ipinfo.dog
+restart.dog
+root.dog
+second.dog

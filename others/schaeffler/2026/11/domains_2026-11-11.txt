@@ -1,0 +1,8 @@
+brandportal.schaeffler
+eval-dp.schaeffler
+marketingportal.schaeffler
+merchandise.schaeffler
+my.schaeffler
+nic.schaeffler
+successfactors.schaeffler
+websites.schaeffler
