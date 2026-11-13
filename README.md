@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/xploitoverload/NetHound/main/assets/nethound-icon.svg" alt="NetHound wolf logo" width="180" height="180">
+  <img src="https://raw.githubusercontent.com/xploitoverload/NetHound/main/assets/NetHound Cybersecurity Graph Logo.png" alt="NetHound wolf logo">
 </p>
 
 # NetHound 🐕
