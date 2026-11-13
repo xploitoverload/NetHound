@@ -1,0 +1,2 @@
+privacy.menu
+qr-bite.menu

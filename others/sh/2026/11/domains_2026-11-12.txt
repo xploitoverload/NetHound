@@ -1,0 +1,6 @@
+airbag.sh
+k-u.sh
+layup.sh
+munawar.sh
+noshto.sh
+reveng.sh

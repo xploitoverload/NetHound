@@ -1,0 +1,4 @@
+mcw678.markets
+schneider.markets
+toptrade.markets
+trade40.markets

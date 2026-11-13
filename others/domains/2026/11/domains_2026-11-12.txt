@@ -1,0 +1,3 @@
+hereandnow.domains
+rightnow.domains
+salla.domains
