@@ -1,0 +1,5 @@
+boxingday.deals
+dailygame.deals
+dailygaming.deals
+eid.deals
+synaptril.deals

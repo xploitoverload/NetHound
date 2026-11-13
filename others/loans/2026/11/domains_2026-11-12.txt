@@ -1,0 +1,2 @@
+claritynow.loans
+wally.loans

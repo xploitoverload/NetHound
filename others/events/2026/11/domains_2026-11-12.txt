@@ -1,0 +1,7 @@
+centeio.events
+glitch.events
+goswag.events
+hostwell.events
+sanfrancisco.events
+sobrado.events
+strangetimes.events

@@ -1,0 +1,6 @@
+depack.trading
+longevity.trading
+mtg.trading
+recluse.trading
+tool.trading
+tradedesk.trading

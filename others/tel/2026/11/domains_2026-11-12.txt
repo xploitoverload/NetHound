@@ -1,0 +1,6 @@
+create.tel
+oncall.tel
+savdo.tel
+trailing.tel
+ufasuck.tel
+wasap.tel

@@ -1,0 +1,7 @@
+drf.is
+funder.is
+heimskaup.is
+holyandco.is
+kantur.is
+qrcd.is
+setup.is

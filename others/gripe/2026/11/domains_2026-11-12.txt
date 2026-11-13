@@ -1,0 +1,12 @@
+calc.gripe
+count.gripe
+down.gripe
+fitnes.gripe
+json.gripe
+mcw678.gripe
+pdf.gripe
+pw.gripe
+qrcode.gripe
+short.gripe
+unit.gripe
+weight.gripe

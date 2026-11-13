@@ -1,0 +1,7 @@
+capre.partners
+gulfshores.partners
+orangebeach.partners
+pensacola.partners
+programmable.partners
+short.partners
+sila.partners

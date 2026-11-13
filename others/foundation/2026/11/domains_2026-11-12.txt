@@ -1,0 +1,3 @@
+hoktoto.foundation
+humanfutures.foundation
+themiddle.foundation

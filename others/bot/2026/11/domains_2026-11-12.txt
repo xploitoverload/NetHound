@@ -1,0 +1,13 @@
+altec.bot
+arctic.bot
+diversifiedli.bot
+nefa.bot
+ringdrone.bot
+ringrover.bot
+ringroverro.bot
+ringroversecurity.bot
+ringroversecuritycam.bot
+rovercam.bot
+staysolid.bot
+vult.bot
+while.bot
