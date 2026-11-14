@@ -1,0 +1,5 @@
+bitocex.exchange
+crescentswap.exchange
+dip.exchange
+newyorkgoldback.exchange
+plx.exchange
