@@ -1,0 +1,8 @@
+ashtree.cards
+bindr.cards
+eb-mimiqui.cards
+income.cards
+kaspi-transfer.cards
+organization.cards
+thebank.cards
+wefibank.cards

@@ -1,0 +1,5 @@
+goldcertificate.gold
+libala.gold
+sonclub.gold
+trast.gold
+zare.gold

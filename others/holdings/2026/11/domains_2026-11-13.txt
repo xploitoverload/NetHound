@@ -1,0 +1,2 @@
+spell.holdings
+titan.holdings

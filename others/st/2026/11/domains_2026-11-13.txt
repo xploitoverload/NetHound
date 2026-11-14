@@ -1,0 +1,4 @@
+asterdex.st
+reelsfa.st
+souly.st
+spit.st

@@ -1,0 +1,2 @@
+nostr.free
+win-gram.free

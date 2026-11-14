@@ -1,0 +1,3 @@
+credit.gripe
+perlum.gripe
+smrt.gripe

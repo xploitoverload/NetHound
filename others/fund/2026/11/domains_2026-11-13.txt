@@ -1,0 +1,4 @@
+egg.fund
+frida.fund
+hardcoded.fund
+novavegas.fund
