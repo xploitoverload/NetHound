@@ -1,0 +1,7 @@
+idks.host
+macantoto.host
+mariototo.host
+paitohk.host
+sahra.host
+trademind.host
+zyno.host

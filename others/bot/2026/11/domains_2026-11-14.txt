@@ -1,0 +1,5 @@
+dicta.bot
+iro.bot
+pickoff.bot
+scio.bot
+silent.bot

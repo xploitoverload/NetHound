@@ -1,0 +1,3 @@
+baden.guide
+codeagent.guide
+supportauthors.guide

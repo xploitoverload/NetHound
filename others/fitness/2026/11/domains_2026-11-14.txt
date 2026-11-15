@@ -1,0 +1,7 @@
+endo.fitness
+nature.fitness
+permian.fitness
+pink-94.fitness
+ride.fitness
+runway.fitness
+thabiso.fitness

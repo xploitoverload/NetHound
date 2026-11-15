@@ -1,0 +1,10 @@
+action.community
+brokenhearts.community
+lab.community
+master.community
+nice.community
+pokerxpress.community
+restore.community
+table.community
+talk.community
+tribalrevival.community
