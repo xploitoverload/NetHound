@@ -1,0 +1,6 @@
+bussola.events
+elevencorporate.events
+hamlet.events
+nios.events
+partyplanned.events
+whitenoise.events

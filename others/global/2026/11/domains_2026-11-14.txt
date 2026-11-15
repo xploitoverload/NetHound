@@ -1,0 +1,8 @@
+alphaed.global
+gameworld.global
+gomovies.global
+quza.global
+sjl.global
+souq.global
+taggroup.global
+tidewright.global

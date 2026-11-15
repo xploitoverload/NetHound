@@ -1,0 +1,8 @@
+browseapps.sh
+disorder.sh
+h91.sh
+int3.sh
+qup.sh
+shaba.sh
+socio.sh
+voicecheap.sh

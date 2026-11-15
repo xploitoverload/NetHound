@@ -1,0 +1,2 @@
+paletteworld.gallery
+publicdisplay.gallery
