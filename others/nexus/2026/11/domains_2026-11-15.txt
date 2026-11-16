@@ -1,0 +1,5 @@
+12.nexus
+eternal.nexus
+lastudio.nexus
+numina.nexus
+veyra.nexus

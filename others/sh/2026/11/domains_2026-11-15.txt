@@ -1,0 +1,11 @@
+clippd.sh
+diagnostica.sh
+dodocloud.sh
+flaws.sh
+keyr.sh
+nordglanz.sh
+northernfi.sh
+patchhub.sh
+wrapn.sh
+x-ray.sh
+zava.sh

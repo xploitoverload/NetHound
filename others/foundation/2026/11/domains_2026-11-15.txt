@@ -1,0 +1,5 @@
+agenticos.foundation
+charitybank.foundation
+guardrails.foundation
+kavireos.foundation
+theart.foundation

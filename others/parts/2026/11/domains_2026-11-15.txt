@@ -1,0 +1,3 @@
+gclass.parts
+tig.parts
+work.parts

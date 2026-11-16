@@ -1,0 +1,6 @@
+ag.kg
+bisoft.kg
+etalon.kg
+perchatki.kg
+sre.kg
+takwa.kg
