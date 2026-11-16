@@ -1,0 +1,2 @@
+software.partners
+topsearchagency.partners

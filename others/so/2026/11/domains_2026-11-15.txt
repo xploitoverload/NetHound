@@ -1,0 +1,5 @@
+cdp.so
+dither.so
+oneos.so
+onpath.so
+trytranscribe.so

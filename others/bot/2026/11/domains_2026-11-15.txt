@@ -1,0 +1,7 @@
+8t.bot
+complex.bot
+kalfa.bot
+momma.bot
+pediatric.bot
+restar.bot
+zumu.bot
