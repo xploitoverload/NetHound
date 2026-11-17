@@ -1,0 +1,5 @@
+movix.energy
+newt.energy
+ses-europe.energy
+smallmodularreactors.energy
+tradevirtual.energy

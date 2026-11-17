@@ -1,0 +1,3 @@
+dror.markets
+nyx.markets
+openvibe.markets

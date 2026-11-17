@@ -1,0 +1,3 @@
+betfair.market
+littlepieces.market
+metal.market

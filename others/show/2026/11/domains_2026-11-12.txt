@@ -1,0 +1,7 @@
+connection.show
+jimmy4deals.show
+nevertoomuch.show
+sharonintuitively.show
+timesnews.show
+trialanderror.show
+yapperstalk.show

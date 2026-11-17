@@ -1,0 +1,14 @@
+236project.team
+admiralx330.team
+globo.team
+kc01o.team
+konekuto.team
+pripraven.team
+serjantov.team
+symbotic.team
+tablet.team
+teamnotification.team
+techandtoast.team
+vividlabs.team
+wisecoder.team
+yufa.team

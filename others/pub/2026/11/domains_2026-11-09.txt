@@ -1,0 +1,3 @@
+mandala.pub
+mqtt.pub
+one-day.pub

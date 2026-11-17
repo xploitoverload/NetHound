@@ -1,0 +1,4 @@
+beyondequity.markets
+comfy.markets
+cryptos.markets
+socials.markets

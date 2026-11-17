@@ -1,0 +1,8 @@
+bluepeak.exchange
+cryptopesa.exchange
+damex.exchange
+gene.exchange
+pinetworkgcv.exchange
+rda.exchange
+termsof.exchange
+usepenny.exchange

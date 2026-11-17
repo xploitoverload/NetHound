@@ -1,0 +1,2 @@
+cidaq-anaqsup.sn
+foloo.sn

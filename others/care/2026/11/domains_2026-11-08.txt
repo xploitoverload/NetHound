@@ -1,0 +1,7 @@
+docfinder.care
+myogen.care
+pal101.care
+pretty.care
+sarbat.care
+tns.care
+whonix.care

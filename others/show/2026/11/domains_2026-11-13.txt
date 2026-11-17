@@ -1,0 +1,3 @@
+pixflix.show
+relate.show
+tazz.show

@@ -1,0 +1,6 @@
+fieldwire.gripe
+macro.gripe
+punch.gripe
+quran.gripe
+share.gripe
+sleep.gripe

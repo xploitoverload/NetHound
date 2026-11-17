@@ -1,0 +1,4 @@
+dotomarket.nexus
+loremaster.nexus
+ravia.nexus
+ultima.nexus

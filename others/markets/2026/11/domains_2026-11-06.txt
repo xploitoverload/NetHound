@@ -1,0 +1,5 @@
+betclutch.markets
+birr.markets
+cryptopesa.markets
+mem.markets
+wonder.markets

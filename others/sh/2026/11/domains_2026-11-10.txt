@@ -1,0 +1,12 @@
+bovidae.sh
+cassie.sh
+citytech.sh
+clax.sh
+dpg.sh
+humphreys.sh
+lares.sh
+megga.sh
+oner.sh
+vary.sh
+volf.sh
+webflare.sh

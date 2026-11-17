@@ -1,0 +1,3 @@
+bigmagnet.band
+middleman.band
+simon.band

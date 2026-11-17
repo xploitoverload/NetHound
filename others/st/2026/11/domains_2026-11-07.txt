@@ -1,0 +1,3 @@
+gestionamientopersonalef.st
+testinfo.st
+testshop.st

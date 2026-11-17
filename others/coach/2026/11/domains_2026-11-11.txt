@@ -1,0 +1,5 @@
+ifr.coach
+mymahjong.coach
+thereclaimcollective.coach
+upside.coach
+workhorse.coach

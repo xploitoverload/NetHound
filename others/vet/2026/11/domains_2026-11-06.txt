@@ -1,0 +1,3 @@
+aehr.vet
+ju88.vet
+special.vet

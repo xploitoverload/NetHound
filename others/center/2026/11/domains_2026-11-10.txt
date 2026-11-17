@@ -1,0 +1,4 @@
+com-locater.center
+domainers.center
+strategystudies.center
+tecnologia.center

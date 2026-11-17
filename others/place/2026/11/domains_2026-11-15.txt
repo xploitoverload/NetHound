@@ -1,0 +1,5 @@
+agentboard.place
+bucketlist.place
+hamlet.place
+presso.place
+regulars.place

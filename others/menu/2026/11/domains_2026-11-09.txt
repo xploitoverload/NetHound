@@ -1,0 +1,3 @@
+mech.menu
+mechs.menu
+tastyqr.menu

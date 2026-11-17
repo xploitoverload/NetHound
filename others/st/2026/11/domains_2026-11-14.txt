@@ -1,0 +1,2 @@
+palaciobrocoli.st
+stargate.st

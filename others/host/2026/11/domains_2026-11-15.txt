@@ -1,0 +1,4 @@
+easype.host
+ketquabongda.host
+leynd.host
+namai.host

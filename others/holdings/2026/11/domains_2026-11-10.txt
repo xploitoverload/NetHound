@@ -1,0 +1,2 @@
+denaro.holdings
+garuda.holdings

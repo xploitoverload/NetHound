@@ -1,0 +1,3 @@
+founder.domains
+octopi.domains
+whisper.domains
