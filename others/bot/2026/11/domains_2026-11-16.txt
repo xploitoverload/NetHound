@@ -1,0 +1,3 @@
+control.bot
+elementor.bot
+unityplus.bot

@@ -1,0 +1,7 @@
+autoscope.vin
+capital.vin
+files.vin
+goal.vin
+mahjongg.vin
+mcv.vin
+security.vin

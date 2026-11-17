@@ -1,0 +1,3 @@
+gallant.partners
+ljm.partners
+payprotec.partners

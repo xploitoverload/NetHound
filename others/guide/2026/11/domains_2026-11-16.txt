@@ -1,0 +1,5 @@
+bice.guide
+feztourguide.guide
+figure.guide
+morrowby.guide
+thought.guide

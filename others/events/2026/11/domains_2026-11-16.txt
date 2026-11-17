@@ -1,0 +1,3 @@
+fc88.events
+readytoplay.events
+weger.events

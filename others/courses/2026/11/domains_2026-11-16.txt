@@ -1,0 +1,4 @@
+exemplarglobal.courses
+maingroup.courses
+pineglobal.courses
+studyhere.courses

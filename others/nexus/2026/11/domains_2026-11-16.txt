@@ -1,0 +1,2 @@
+genio.nexus
+man88.nexus
