@@ -1,0 +1,3 @@
+aiplanets.guide
+kochkurs.guide
+whiskeytasting.guide

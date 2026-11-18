@@ -1,0 +1,3 @@
+gui.parts
+wnyauto.parts
+xibet.parts

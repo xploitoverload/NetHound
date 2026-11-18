@@ -1,0 +1,5 @@
+area.land
+browse.land
+cogni.land
+godx.land
+reviewer.land

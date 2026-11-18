@@ -1,0 +1,9 @@
+cgcompute.sh
+cultivate.sh
+initio.sh
+konstantin.sh
+multiview.sh
+nudo.sh
+trashcan.sh
+workroom.sh
+zerun.sh

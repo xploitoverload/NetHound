@@ -1,0 +1,4 @@
+fans.observer
+mkvcinemas.observer
+ransomware.observer
+whatcom.observer

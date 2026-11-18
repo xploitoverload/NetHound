@@ -1,0 +1,3 @@
+dekko.sn
+portaildb.sn
+samacorrection.sn

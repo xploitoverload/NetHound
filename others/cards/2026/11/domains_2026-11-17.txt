@@ -1,0 +1,4 @@
+midgard.cards
+mobilesuit.cards
+strongsuit.cards
+xibet.cards

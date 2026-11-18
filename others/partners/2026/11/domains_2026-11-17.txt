@@ -1,0 +1,2 @@
+reshape.partners
+restaurantdepot.partners

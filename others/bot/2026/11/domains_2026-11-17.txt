@@ -1,0 +1,8 @@
+dictavox.bot
+generalintuition.bot
+mender.bot
+mentalhealth.bot
+outrider.bot
+quartermaster.bot
+sachin.bot
+wayfarer.bot

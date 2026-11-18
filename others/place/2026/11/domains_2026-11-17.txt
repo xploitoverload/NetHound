@@ -1,0 +1,5 @@
+mynd.place
+noise.place
+timeline.place
+wealthy.place
+xibet.place
