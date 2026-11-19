@@ -1,0 +1,6 @@
+fog.gripe
+giantgamers.gripe
+hang.gripe
+j30.gripe
+offender.gripe
+tic-tac-toe.gripe

@@ -1,0 +1,6 @@
+1dollar-seek.dating
+1p.dating
+cheapest-match.dating
+cheapest-matching.dating
+cheapest-seek.dating
+dollar-search.dating

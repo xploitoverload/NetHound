@@ -1,0 +1,17 @@
+automanagevm.solutions
+check-certificate.solutions
+coachtech.solutions
+consultoria.solutions
+easypeasy.solutions
+jayrho.solutions
+m1.solutions
+patriotanalytics.solutions
+scalabelfulfillment.solutions
+sheetwise.solutions
+solarcontractrelief.solutions
+solarpaymentresolutiondr.solutions
+solarrectification.solutions
+solarreinstatement.solutions
+taal.solutions
+terrapool.solutions
+vorago.solutions

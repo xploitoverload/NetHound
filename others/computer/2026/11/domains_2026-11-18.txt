@@ -1,0 +1,3 @@
+capable.computer
+coaching.computer
+osmio.computer

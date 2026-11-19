@@ -1,0 +1,3 @@
+cnic-probe-aws-asia-tokyo-live-1794875701.auto
+cnic-probe-aws-oceania-sydney-live-1794876001.auto
+vasadin.auto

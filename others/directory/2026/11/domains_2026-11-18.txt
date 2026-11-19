@@ -1,0 +1,6 @@
+ainews.directory
+grok-bot.directory
+hostel.directory
+hostels.directory
+launches.directory
+survival.directory

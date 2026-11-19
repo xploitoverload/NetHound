@@ -1,0 +1,2 @@
+covr.markets
+malls.markets

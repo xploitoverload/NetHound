@@ -1,0 +1,3 @@
+cheapestsearch.cheap
+dollar-finder.cheap
+dollarfinder.cheap

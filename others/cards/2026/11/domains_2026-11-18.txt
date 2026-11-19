@@ -1,0 +1,4 @@
+bonjour.cards
+deepseek.cards
+topname.cards
+wirerunners.cards

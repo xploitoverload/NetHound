@@ -1,0 +1,5 @@
+achado.bot
+davenport.bot
+istock.bot
+m2h.bot
+winnie.bot

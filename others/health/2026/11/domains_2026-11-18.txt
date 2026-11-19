@@ -1,0 +1,12 @@
+balam.health
+fitz.health
+halvi.health
+lexifyhealth.health
+lifechoice.health
+news-bridget.health
+newsletterbridget.health
+nowik.health
+paakai.health
+shnet.health
+tofit.health
+varden.health

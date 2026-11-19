@@ -1,0 +1,4 @@
+depth.money
+kopa.money
+noks.money
+openincentive.money
