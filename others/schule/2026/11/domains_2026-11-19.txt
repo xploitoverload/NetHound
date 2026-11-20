@@ -1,0 +1,7 @@
+aktuell.schule
+hla.schule
+hofmann.schule
+matto.schule
+theoretika.schule
+tipp.schule
+vokabeltrainer.schule

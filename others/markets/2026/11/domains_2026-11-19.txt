@@ -1,0 +1,14 @@
+boazmpc.markets
+capitalissues.markets
+commoditymarketcapital.markets
+diode.markets
+fin.markets
+hwm.markets
+instan777.markets
+mojito.markets
+rove.markets
+stardust.markets
+steps.markets
+trusted.markets
+volcra.markets
+zuri.markets

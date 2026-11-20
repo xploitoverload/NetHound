@@ -1,0 +1,7 @@
+convey.ngo
+digitaltwin.ngo
+eksaath.ngo
+kobza.ngo
+terraempowerment.ngo
+terrawomens.ngo
+terrawomensempowerment.ngo

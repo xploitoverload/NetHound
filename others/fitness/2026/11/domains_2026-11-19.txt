@@ -1,0 +1,11 @@
+deskfit.fitness
+fpx.fitness
+highknees.fitness
+jadon.fitness
+liftlongevity.fitness
+trdr.fitness
+vintagegym.fitness
+whb.fitness
+wrep.fitness
+yapping.fitness
+zuz.fitness
