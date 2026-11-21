@@ -1,0 +1,5 @@
+deloc.finance
+indexor.finance
+santander-europe-depot.finance
+transformative.finance
+wearevident.finance

@@ -1,0 +1,5 @@
+celadon.cards
+deckwerkstatt.cards
+medico.cards
+mobiuos.cards
+vespera.cards

@@ -1,0 +1,6 @@
+aidlc.sh
+ar5.sh
+bray.sh
+kraz.sh
+pushback.sh
+sitboard.sh

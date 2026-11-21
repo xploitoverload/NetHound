@@ -1,0 +1,4 @@
+boring.tokyo
+reversi.tokyo
+trains.tokyo
+zonedev.tokyo

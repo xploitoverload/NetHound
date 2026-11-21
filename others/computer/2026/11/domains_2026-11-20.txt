@@ -1,0 +1,3 @@
+panama-city.computer
+passage.computer
+smartphones.computer

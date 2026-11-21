@@ -1,0 +1,5 @@
+asintegral.am
+geoteq.am
+notfitness.am
+shahen.am
+tyom.am

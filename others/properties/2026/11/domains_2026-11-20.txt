@@ -1,0 +1,3 @@
+heritagecapital.properties
+nickcarter.properties
+shortcuts.properties

@@ -1,0 +1,2 @@
+mahjongg.degree
+vasadin.degree

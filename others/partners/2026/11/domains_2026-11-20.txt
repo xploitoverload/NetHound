@@ -1,0 +1,3 @@
+alchemia.partners
+axispoint.partners
+mapbaron.partners

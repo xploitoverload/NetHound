@@ -1,0 +1,3 @@
+normec.tools
+onedoc.tools
+worksmith.tools

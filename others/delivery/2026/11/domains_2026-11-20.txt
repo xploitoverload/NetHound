@@ -1,0 +1,3 @@
+entozoon.delivery
+jetpizza.delivery
+yamismo.delivery

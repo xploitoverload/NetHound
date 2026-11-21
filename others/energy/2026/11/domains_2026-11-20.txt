@@ -1,0 +1,6 @@
+apotheosis.energy
+atmo.energy
+power4.energy
+priestess.energy
+tigerpower.energy
+xelos.energy
