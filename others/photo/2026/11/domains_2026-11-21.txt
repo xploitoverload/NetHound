@@ -1,0 +1,2 @@
+bylina.photo
+passport-id.photo

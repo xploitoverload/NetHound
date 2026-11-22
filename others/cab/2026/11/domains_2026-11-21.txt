@@ -1,0 +1,7 @@
+aigpt.cab
+dig.cab
+goose.cab
+lyh.cab
+meng.cab
+qfh.cab
+xxl.cab

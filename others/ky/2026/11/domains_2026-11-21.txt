@@ -1,0 +1,2 @@
+entry.ky
+truth.ky
