@@ -1,0 +1,2 @@
+arlo.holdings
+mcman.holdings

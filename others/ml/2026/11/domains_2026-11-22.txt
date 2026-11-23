@@ -1,0 +1,5 @@
+bahaitexts.ml
+birgotech.ml
+daodejing.ml
+jain.ml
+kojiki.ml

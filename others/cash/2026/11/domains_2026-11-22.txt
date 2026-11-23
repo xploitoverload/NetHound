@@ -1,0 +1,3 @@
+camwin.cash
+specimen.cash
+trdr.cash

@@ -1,0 +1,5 @@
+alo789.observer
+oikos.observer
+path.observer
+turing.observer
+vasadin.observer

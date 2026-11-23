@@ -1,0 +1,5 @@
+aivk.events
+jameslloyd.events
+powerreg.events
+powerscope.events
+skate.events

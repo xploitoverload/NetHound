@@ -1,0 +1,8 @@
+baklava.food
+csdsx.food
+mongolian.food
+pakistani.food
+pskc.food
+puertorican.food
+staked.food
+swtcd.food

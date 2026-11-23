@@ -1,0 +1,2 @@
+aster.talk
+spatialchat.talk

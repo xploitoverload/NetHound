@@ -1,0 +1,5 @@
+illinoisan.republican
+nevadan.republican
+oklahoman.republican
+texan.republican
+virginislander.republican

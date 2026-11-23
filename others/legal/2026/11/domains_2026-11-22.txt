@@ -1,0 +1,5 @@
+armarium.legal
+saltillo.legal
+selfrep.legal
+speedy.legal
+watertight.legal

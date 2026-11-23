@@ -1,0 +1,6 @@
+manna.cards
+myvault.cards
+royalcardlounge.cards
+seraphique-boutique.cards
+snag.cards
+zao.cards
