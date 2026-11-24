@@ -1,0 +1,8 @@
+banked.creditcard
+expensed.creditcard
+point.creditcard
+protected.creditcard
+sign.creditcard
+sunwins.creditcard
+tech.creditcard
+try.creditcard

@@ -1,0 +1,3 @@
+akcel.coffee
+kvm.coffee
+movies.coffee

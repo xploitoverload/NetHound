@@ -1,0 +1,4 @@
+deltax.pub
+manual.pub
+mirage.pub
+zxc.pub

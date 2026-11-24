@@ -1,0 +1,2 @@
+ambato.mg
+sentinel-response.mg

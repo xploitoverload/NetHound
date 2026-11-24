@@ -1,0 +1,2 @@
+luck8vote.name
+sld.name

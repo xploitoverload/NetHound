@@ -1,0 +1,4 @@
+association-coeurblanche.charity
+association-kazcavel.charity
+bober.charity
+domino.charity

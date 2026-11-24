@@ -1,0 +1,3 @@
+competition.forex
+tournament.forex
+tradexa.forex

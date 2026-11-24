@@ -1,0 +1,2 @@
+goblins.show
+u31.show

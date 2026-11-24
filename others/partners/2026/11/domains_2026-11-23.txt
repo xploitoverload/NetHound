@@ -1,0 +1,5 @@
+aurora.partners
+diana.partners
+onboard.partners
+pawn.partners
+scaling.partners

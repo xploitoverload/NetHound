@@ -1,0 +1,3 @@
+columbus.tours
+hide.tours
+op.tours
