@@ -1,0 +1,3 @@
+gadget.bargains
+led.bargains
+wfm.bargains

@@ -1,0 +1,4 @@
+core.bank
+fnbbotswana.bank
+greatsouthern.bank
+hc.bank

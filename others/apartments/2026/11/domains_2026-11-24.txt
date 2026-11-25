@@ -1,0 +1,8 @@
+aivaz.apartments
+arc.apartments
+coastal.apartments
+feelgood.apartments
+liberland.apartments
+sealine.apartments
+shoregate.apartments
+spaces.apartments
