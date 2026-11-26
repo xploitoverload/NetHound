@@ -1,0 +1,2 @@
+destines.delivery
+tempmail.delivery

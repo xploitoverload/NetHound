@@ -1,0 +1,5 @@
+aquarius.energy
+bob.energy
+powercord.energy
+venario.energy
+xarc.energy

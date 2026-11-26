@@ -1,0 +1,2 @@
+legalnotice.domains
+unitedking.domains

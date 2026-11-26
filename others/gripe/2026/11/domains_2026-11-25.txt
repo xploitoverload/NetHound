@@ -1,0 +1,6 @@
+afterdark.gripe
+f1.gripe
+floozemail.gripe
+rat.gripe
+sameold.gripe
+warlock.gripe

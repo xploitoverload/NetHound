@@ -1,0 +1,4 @@
+köln.gold
+sachsen.gold
+waves.gold
+zyx.gold

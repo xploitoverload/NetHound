@@ -1,0 +1,3 @@
+fragment.rent
+lptmkmpoexml.rent
+tanger.rent

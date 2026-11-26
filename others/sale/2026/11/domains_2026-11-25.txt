@@ -1,0 +1,17 @@
+bargainempire.sale
+bargainexpress.sale
+bargainfactory.sale
+bargainunlimited.sale
+clearanceking.sale
+dealexpresspro.sale
+dealfactory.sale
+dealsdirect.sale
+discountmania.sale
+neveyarak.sale
+prestigesouthernstarphasetwo.sale
+saleemporium.sale
+shopandsavepro.sale
+shopcentral.sale
+shoppingfever.sale
+skateon.sale
+wyomingranchhorse.sale

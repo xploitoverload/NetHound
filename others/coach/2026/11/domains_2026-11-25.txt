@@ -1,0 +1,8 @@
+championcoaching.coach
+civilianstrong.coach
+elu.coach
+faktor-m.coach
+fishing.coach
+sessionsorted.coach
+thedink.coach
+tpc.coach

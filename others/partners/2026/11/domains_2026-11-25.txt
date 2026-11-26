@@ -1,0 +1,2 @@
+bluebull.partners
+incuvo.partners

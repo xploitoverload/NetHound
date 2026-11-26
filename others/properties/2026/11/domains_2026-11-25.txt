@@ -1,0 +1,3 @@
+fora.properties
+prestigepearlcountry.properties
+prestigesouthernstarphase2.properties
