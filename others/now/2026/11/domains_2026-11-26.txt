@@ -1,0 +1,7 @@
+affix.now
+cryptodebitcard.now
+daymark.now
+facai.now
+flickr.now
+ghostsignal.now
+threat.now

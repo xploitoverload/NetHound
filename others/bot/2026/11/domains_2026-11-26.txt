@@ -1,0 +1,6 @@
+agencia.bot
+i-chat.bot
+mold.bot
+rien.bot
+steed.bot
+trix.bot

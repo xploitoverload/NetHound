@@ -1,0 +1,3 @@
+aiapi.fans
+aiquant.fans
+teaz.fans

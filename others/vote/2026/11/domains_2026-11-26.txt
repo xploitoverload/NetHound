@@ -1,0 +1,2 @@
+totovipp.vote
+warroom.vote

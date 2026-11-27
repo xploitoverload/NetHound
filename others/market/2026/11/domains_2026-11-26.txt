@@ -1,0 +1,8 @@
+appsi.market
+bai-go.market
+limber.market
+max.market
+middle.market
+nano.market
+nanorepo.market
+nassana.market

@@ -1,0 +1,7 @@
+estado.watch
+koshi.watch
+northern.watch
+ourvideos.watch
+unresolved.watch
+wearos.watch
+xenex.watch

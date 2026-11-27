@@ -1,0 +1,10 @@
+88r8.global
+balanz-ar.global
+koha.global
+ldcheck.global
+lumo.global
+maremagnum.global
+mz-automation.global
+serverhosting.global
+spareline.global
+yosomos.global

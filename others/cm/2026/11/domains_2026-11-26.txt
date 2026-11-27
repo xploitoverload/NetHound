@@ -1,0 +1,2 @@
+salam-services.cm
+teach.cm
