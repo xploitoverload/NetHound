@@ -1,0 +1,12 @@
+betplay.fast
+betwinner.fast
+floorplan.fast
+footybite.fast
+gantry.fast
+hizlio.fast
+khatrimaza.fast
+maestro.fast
+ownshop.fast
+prelaunch.fast
+shopown.fast
+sovereign.fast

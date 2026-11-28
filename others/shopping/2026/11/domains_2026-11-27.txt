@@ -1,0 +1,13 @@
+cidlines.shopping
+double.shopping
+gooddeal.shopping
+hikayat7.shopping
+inetwork.shopping
+koi.shopping
+leslipfrancais.shopping
+loadedtea.shopping
+pent.shopping
+rabbit.shopping
+records.shopping
+wifi.shopping
+zhongjing.shopping

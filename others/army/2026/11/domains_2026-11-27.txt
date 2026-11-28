@@ -1,0 +1,8 @@
+adeptus.army
+adler.army
+kqbd.army
+luck.army
+perrone.army
+reddybook.army
+usairforce.army
+zst.army

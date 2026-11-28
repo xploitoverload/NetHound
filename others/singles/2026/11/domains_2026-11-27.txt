@@ -1,0 +1,3 @@
+fc88.singles
+meetlocal.singles
+mythic.singles

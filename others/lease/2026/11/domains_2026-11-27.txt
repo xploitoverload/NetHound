@@ -1,0 +1,3 @@
+retailoutlet.lease
+shop.lease
+store.lease
